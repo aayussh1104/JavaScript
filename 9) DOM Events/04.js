@@ -7,7 +7,7 @@
 //     console.log(event);
 // })
 
-// Whenever we add an EventListener to any objext in javascript
+// Whenever we add an EventListener to any object in javascript
 // JS engine executes code line by line
 // Browser have js engines + many extra feature in it like WebApi
 
@@ -20,7 +20,7 @@
 
 
 
-// lets add avents to different buttons like we did in previous file
+// lets add events to different buttons like we did in previous file
 
 const allBtn= document.querySelectorAll(".my-buttons button");
 

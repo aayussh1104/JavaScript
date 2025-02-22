@@ -1,6 +1,6 @@
 // Parameter destructuring
 // We use this with object
-// And we mostly use this react
+// And we mostly use this in react
 
 const person={
     name:"Aayush Gupta",

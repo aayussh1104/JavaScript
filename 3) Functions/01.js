@@ -13,7 +13,7 @@ function add(){
 const returnedValue=add();
 console.log(returnedValue);
 
-function sumofTwo(number1,number2){   // number1 and number2 are prameters
+function sumofTwo(number1,number2){   // number1 and number2 are parameters
     return number1+number2;
 }
 
@@ -26,7 +26,7 @@ function isEven(number){
     if(number%2 == 0){
         return true;
     }else{
-    return false;
+        return false;
     }
 }
 console.log(isEven(9));

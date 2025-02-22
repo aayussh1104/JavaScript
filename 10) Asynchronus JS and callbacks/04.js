@@ -1,5 +1,5 @@
 // callbacks, callback hell, pyramid of doom
-// asynchronus programming
+// asynchronous programming
 
 
 const heading1=document.querySelector(".heading1");
@@ -58,7 +58,7 @@ const heading7=document.querySelector(".heading7");
 
 // doing this with the help of functions
 
-function changeText(element, text, color, time, onSuccessCallback, onFailurCallback){
+function changeText(element, text, color, time, onSuccessCallback, onFailureCallback){
     setTimeout(()=>{
         if(element){
             element.textContent=text;
@@ -67,8 +67,8 @@ function changeText(element, text, color, time, onSuccessCallback, onFailurCallb
                 onSuccessCallback();
             }
         }else{
-            if(onFailurCallback){
-                onFailurCallback();
+            if(onFailureCallback){
+                onFailureCallback();
             }
         }
     },time)

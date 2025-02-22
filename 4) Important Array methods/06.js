@@ -3,11 +3,11 @@
 
 const myArray =["Lion","Cat","Dog","Tiger"];
 
-function islength3(string){
+function islength(string){
     return string.length === 3;
 }
 
-const ans = myArray.find(islength3);
+const ans = myArray.find(islength);
 // const ans = myArray.find((string) => string.length === 3);
 console.log(ans);
 
@@ -21,7 +21,8 @@ const users = [
     {id:3,name:"Harsh"},
     {id:4,name:"Deepak"},
     {id:5,name:"Rajdeep"},
-    {id:6,name:"Rashi"}
+    {id:6,name:"Ashish"},
+    {id:7,name:"Rashi"}
 ]
 
 const ansobj = users.find((user) => user.id === 2);

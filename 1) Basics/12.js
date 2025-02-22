@@ -10,10 +10,10 @@ console.log(num2>num3);
 console.log(num1<=num3);
 
 // == vs ===
-let num4= "46";
-let num5=46;
+let num4 = "46";
+let num5 = 46;
 
-console.log(num4 == num5);    // Will only check the value not the data type so if there os a string data type of same value as int value so it will return true
+console.log(num4 == num5);    // Will only check the value not the data type so if there is a string data type of same value as int value so it will return true
 // and this happens in javascript only not in other programming languages
 
 // And if you want to check data type with the value then we use ===

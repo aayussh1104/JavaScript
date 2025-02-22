@@ -6,7 +6,7 @@
 var value1= 10;
 console.log(value1);
 console.log(value1/2);
-console.log(value1 ** 2); // for square, we can use for cube just e=write 3 instead of 2
+console.log(value1 ** 2); // for square, we can use for cube just write 3 instead of 2
 console.log(value1 ** 0.5); //for square root
 
 

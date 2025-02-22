@@ -4,7 +4,7 @@
 const person = new Map([['firstname','aayush'],['age',20],['college','Galgotias University']]);
 console.log(person);
 
-// Arealistic example of Map
+// A realistic example of Map
 
 const person1={
     id: 1,

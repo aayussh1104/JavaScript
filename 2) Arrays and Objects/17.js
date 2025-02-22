@@ -3,8 +3,8 @@
 
 const array=[
     {userid:1,name:"Aayushh"},
-    {userid:2,name:"Suraj"},
-    {userid:3,name:"Adesh"}
+    {userid:2,name:"Surajj"},
+    {userid:3,name:"Adeshh"}
 ]
 
 console.log(array);

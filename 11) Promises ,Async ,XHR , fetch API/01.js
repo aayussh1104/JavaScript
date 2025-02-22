@@ -1,5 +1,5 @@
 // Promise
-// Promise is such value whose value we dont know now, but we will know it in near future
+// Promise is such value whose value we don't know now, but we will know it in near future
 // Promise represents future value
 console.log("Script starts");
 
@@ -21,7 +21,6 @@ const friedRicePromise = new Promise((resolve,reject)=>{
 // as a JS developer we have to consume our promise more than to develop it
 
 // and now we have to consume it
-
 
 // this function will have two callback functions one for resolve and one for reject but we can remove the reject callback function cuz we should care about our resolve function only
 

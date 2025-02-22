@@ -5,7 +5,7 @@
 
 // click
 // there are 3 ways to add events
-// 1) Inside html code of the button     // we dont use this way now
+// 1) Inside html code of the button     // we don't use this way now
 // 2) 
 // const btn= document.querySelector(".btn-headline");
 // console.log(btn);

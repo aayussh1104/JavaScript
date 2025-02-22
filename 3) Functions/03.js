@@ -3,7 +3,7 @@
 hello();
 
 function hello(){
-    console.log("Lissan-Al-Gaib")
+    console.log("Lisaan-Al-Gaib")
 }
 
 // This can be done in javascript calling a function before declaring it

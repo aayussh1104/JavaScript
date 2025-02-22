@@ -1,6 +1,6 @@
 // callback
-// we mostly use callback in asynchronus programming languages
-// but lets understand it with the help of synchronus programming language first
+// we mostly use callback in asynchronous programming languages
+// but lets understand it with the help of synchronous programming language first
 
 
 function myFunc(callback){

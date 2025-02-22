@@ -9,7 +9,7 @@ const newTodoItem=document.createElement("li");
 const newTodoItem2=document.createElement("li");
 // const newTodoItemText=document.createTextNode("Study");
 newTodoItem.textContent="Study";
-newTodoItem2.textContent="Dont Study";
+newTodoItem2.textContent="Don't Study";
 const todoList= document.querySelector(".todo-list");
 // newTodoItem.append(newTodoItemText);
 todoList.append(newTodoItem);

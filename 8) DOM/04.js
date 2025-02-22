@@ -7,6 +7,6 @@ console.log(mainHeading.style);  // all the style used inside this and the brows
 
 mainHeading.style.color="blue";  // we can change the styling like this
 
-mainHeading.style.backgroundColor="red";   // to change the style which has dash or somthing in between them like background-color in css we will use the capital letter after dash and write it like this backgroundColor
+mainHeading.style.backgroundColor="red";   // to change the style which has dash or something in between them like background-color in css we will use the capital letter after dash and write it like this backgroundColor
 
 mainHeading.style.border="10px solid pink";

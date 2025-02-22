@@ -32,7 +32,7 @@ changeText(heading1, "one", "red", 1000)
     return changeText(heading2, "two", "orange", 1000);      // if we will not return anything here it will directly return undefined
 })
 .then(()=>{
-    return changeText(heading3, "three", "purple", 1000);     // this function returns a promise here so why not lets return the promise here, because if we dont return anything it will return undefined
+    return changeText(heading3, "three", "purple", 1000);     // this function returns a promise here so why not lets return the promise here, because if we don't return anything it will return undefined
 }).then(()=>{
     return changeText(heading4, "four", "blue", 1000)
 }).then(()=>{

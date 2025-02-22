@@ -6,7 +6,7 @@ const person1={
     age:21,
     "person hobbies":["getting laid", "cleaning dishes", "waiting for his hubby"]
 }
-// To store more than two words as an key we use double comma notation 
+// To store more than one word as an key we use double comma notation 
 
 // 1st use
 console.log(person1["person hobbies"]);

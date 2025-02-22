@@ -1,5 +1,5 @@
 // String methods or functions
-// strings are immutable cant be change so all these functions will give new strings so we have to store it in new string or change the value of original string
+// strings are immutable means cant be changed so all these functions will give new strings so we have to store it in new string or change the value of original string
 // trim()
 // toUpperCase()
 // to LowerCase()

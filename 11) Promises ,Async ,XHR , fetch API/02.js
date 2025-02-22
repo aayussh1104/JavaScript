@@ -4,7 +4,7 @@ function ricePromise(){
     const bucket = ['coffee','chips','sweets','toffee','vegetables','salt', 'rice'];
     return new Promise((resolve,reject)=>{
         if(bucket.includes("vegetables") && bucket.includes("rice") && bucket.includes("salt")){         // includes function checks if it is present there or not
-            resolve({value :"Fried Rice"});
+            resolve("Yummy Fried Rice");
         }else{
             reject(new Error("Something missing from the bucket"));
         }

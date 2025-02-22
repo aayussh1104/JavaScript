@@ -1,15 +1,15 @@
 // Computed properties
 
-const key1="objkey1";
-const key2="objkey2";
+const key1 = "objkey1";
+const key2 = "objkey2";
 
-const myValue1="value1";
-const myValue2="value2";
+const myValue1 = "value1";
+const myValue2 = "value2";
 
 // to create an object like this using above variables
 // const obj={
-//     objkey1: value1,
-//     objkey2: value2
+//     objkey1 : value1,
+//     objkey2 : value2
 // }
 
 const obj={

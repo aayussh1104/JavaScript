@@ -1,15 +1,15 @@
 // reduce method
 
-const numbers=[1,2,3,4,5];
+const numbers = [1,2,3,4,5];
 
-// aim: Sum of all the numbers inside an array
+// aim : Sum of all the numbers inside an array
 
 const sum = numbers.reduce((accumulator,currentValue)=>{
     return accumulator + currentValue;
 });
 console.log(sum);
 
-// WORKING OF ACCUMULATOR AND CURRENTVALUE IN THE FUNCTION
+// WORKING OF ACCUMULATOR AND CURRENT VALUE IN THE FUNCTION
 // accumulator,          currentValue,          return
 // 1,                     2,                    3
 // 3,                     3,                    6

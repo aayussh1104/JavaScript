@@ -1,4 +1,4 @@
-// and or operator
+// and / or operator
 
 let firstname="Aayush";
 let age= 20;

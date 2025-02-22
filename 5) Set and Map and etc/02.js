@@ -2,7 +2,7 @@
 // store data
 // sets also have its own methods
 // No-index based access
-// Order is not guarranted
+// Order is not guaranteed
 // Unique items only, no duplicates allowed
 
 
@@ -42,7 +42,7 @@ const myArray=[1,2,3,4,5,3,2,6,7,5,8];
 const uniqueElements=new Set(myArray);
 console.log(uniqueElements);
 console.log(uniqueElements.length); // it will give undefined, we cant use length property in Set
-console.log(myArray); // putting an array in a set doesnt modify the array
+console.log(myArray); // putting an array in a set doesn't modify the array
 
 // Length of the set
 let length=0;

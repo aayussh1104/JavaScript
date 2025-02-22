@@ -1,6 +1,6 @@
-// synchronus programming vs asynchronus programming
-// Synchronus programming => Program gets executed line bt line
-// JavaScript is a synchronus programming language and single threaded, well we can also perform asynchronus programming in it too
+// synchronous programming vs asynchronous programming
+// Synchronous programming => Program gets executed line by line
+// JavaScript is a synchronus programming language and single threaded, well we can also perform asynchronous programming in it too
 
 // example of synchronus programming
 // console.log("Script starts");
@@ -20,7 +20,7 @@
 // function hello(){
 //     console.log("inside setTimeout");
 // }
-// setTimeout(hello,1000);  // here the time is in miliseconds  // you can pass function inside setTimeout function too like arrow function or normal function
+// setTimeout(hello,1000);  // here the time is in milliseconds  // you can pass function inside setTimeout function too like arrow function or normal function
 // console.log("Script ends");
 
 
@@ -30,7 +30,7 @@
 // console.log("Another script starts");
 // setTimeout(()=>{
 //     console.log("Inside setTimeout function");
-// },0); // 0 miliseconds
+// },0); // 0 milliseconds
 
 // for(let i=0 ; i<=5; i++){
 //     console.log(i);
@@ -38,14 +38,14 @@
 // console.log("Script ends");
 
 // setTimeout returns an id
-// with the help of setTimeout function, we can perform asynchronus programming in javascript
+// with the help of setTimeout function, we can perform asynchronous programming in javascript
 
-// if we dont want our setTimeout function to execute and get terminated, we can terminate it like this using clearTimeout function and id 
+// if we don't want our setTimeout function to execute and get terminated, we can terminate it like this using clearTimeout function and id 
 
 console.log("Another script starts");
 const id = setTimeout(()=>{
     console.log("Inside setTimeout function");
-},0); // 0 miliseconds
+},0); // 0 milliseconds
 
 for(let i=0 ; i<=5; i++){
     console.log(i);

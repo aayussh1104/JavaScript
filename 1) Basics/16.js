@@ -1,5 +1,5 @@
 // Nested if else
-const prompt = require('prompt-sync')(); // this is to run prompt function is vs code 
+const prompt = require('prompt-sync')(); // this is to run prompt function in vs code 
 
 let winningnumber=11;
 let userGuess= +prompt("Guess a number");

@@ -1,7 +1,7 @@
 // sort METHOD
 // sort method sorts an array in ascending order or descending
 // It does not return a new array, it only mutates the current array
-// JavaScript does not sorts the array without giving a compare function if we give it to sort directly, it will convert the numbers in string and sort them according to their ASCII values exampe given below
+// JavaScript does not sorts the array without giving a compare function if we give it to sort directly, it will convert the numbers in string and sort them according to their ASCII values example given below
 // const numbers = [200,1,4,300,1500];
 // numbers.sort(numbers);
 // console.log(numbers);

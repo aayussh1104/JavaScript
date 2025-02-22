@@ -39,7 +39,7 @@ const user2={
     firstname:"nisha",
     age:17
 }
-  
+
 about.call();
 about.call(user2, "temporary love", "One Direction");
 about.call(user1, "temporary love", "One Direction");

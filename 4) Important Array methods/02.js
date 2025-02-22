@@ -1,7 +1,7 @@
 // map method
-// It is very important method in js and its also very important in React.js
+// It is very important method in js and it is also very important in React.js
 // It also takes callback function as an input as forEach
-// map method alwas return a new array
+// map method always return a new array
 
 
 const numbers=[3,4,6,8,9,2];
@@ -12,7 +12,7 @@ const square = function(number){
 // It is crucial to return when you use map method otherwise it will give undefined array
 
 const newArray= numbers.map(square);
-// map method alwas return a new array
+// map method always return a new array
 console.log(newArray);
 
 console.log();

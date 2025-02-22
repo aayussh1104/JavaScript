@@ -1,11 +1,11 @@
 // every METHOD
-// every method will return true if all values in it value get satisfied to the function and thecallback function will also return a boolean value that is true or false
+// every method will return true if all values in it value get satisfied to the function and the callback function will also return a boolean value that is true or false
 
 const numbers = [2,4,6,8,10];
 
 const ans = numbers.every((number)=>number%2===0);
 
-// This function will check if all the elements in the array even or not, it will give false too if only one elemnt is odd in the array
+// This function will check if all the elements in the array even or not, it will give false too if only one element is odd in the array
 
 console.log(ans);
 

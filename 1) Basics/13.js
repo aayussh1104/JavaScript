@@ -13,18 +13,18 @@ else{
    // false
    // ""
    // undefined
-  // null
-  // 0
+   // null
+   // 0
 
 // truthy values
-   // "abcbfuevue" 
+   // "abcdbfuevue" 
    // 3,-1,-6,465
 
 let firstname="";
 
 if(firstname){
     console.log(firstname);
-  }
+}
 else{
     console.log("firstname is empty");
 }

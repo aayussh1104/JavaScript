@@ -10,7 +10,7 @@ console.log(todo1);
 const newTodoItem=document.createElement("li");
 const newTodoItem2=document.createElement("li");
 newTodoItem.textContent="Study";
-newTodoItem2.textContent="Dont Study";
+newTodoItem2.textContent="Don't Study";
 const todo=document.querySelector(".todo-list ");
 todo.before(newTodoItem);
 todo.after(newTodoItem2);
